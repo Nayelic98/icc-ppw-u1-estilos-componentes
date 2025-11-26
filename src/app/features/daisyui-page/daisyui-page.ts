@@ -11,12 +11,11 @@ import { Menu } from './components/menu/menu';
 @Component({
   selector: 'app-daisyui-page',
   standalone: true,
-  imports: [CommonModule,Drawer,
+  imports: [CommonModule,
     Avatar,
     Table,
     Card,
-    CardResponsive,
-    Footer,Menu,],
+    CardResponsive,Menu,],
   templateUrl: './daisyui-page.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

@@ -30,6 +30,8 @@ export const routes: Routes = [
 {
   path: 'simpsons/:id',
   component: SimpsonDetailPageComponent,
-}
+},
+
+
 
 ];
